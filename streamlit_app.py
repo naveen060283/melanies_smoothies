@@ -15,7 +15,7 @@ st.write('The name on your Smoothie will be:', name_on_order)
 cnx = st.connection("snowflake")
 session = cnx.session()
 
-smoothiefroot_response = requests.get("https://my.FRUITYVICE.com/api/fruit/watermelon")
+smoothiefroot_response = requests.get("https://FRUITYVICE.com/api/fruit/watermelon")
 st.text(smoothiefroot_response)
 
 # my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
