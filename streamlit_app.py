@@ -29,7 +29,7 @@ st.text(smoothiefroot_response)
 
 ingredients_list = st.multiselect(
     'Choose upto 5 ingredients:'
-    , my_dataframe
+    #, my_dataframe
     , max_selections=5
     )
 
